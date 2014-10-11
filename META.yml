@@ -26,7 +26,7 @@ no_index:
 provides:
   Catalyst::Plugin::File::RotateLogs:
     file: lib/Catalyst/Plugin/File/RotateLogs.pm
-    version: '0.02'
+    version: '0.03'
   Catalyst::Plugin::File::RotateLogs::Backend:
     file: lib/Catalyst/Plugin/File/RotateLogs.pm
 requires:
@@ -37,6 +37,6 @@ resources:
   bugtracker: https://github.com/masakyst/Catalyst-Plugin-File-RotateLogs/issues
   homepage: https://github.com/masakyst/Catalyst-Plugin-File-RotateLogs
   repository: git://github.com/masakyst/Catalyst-Plugin-File-RotateLogs.git
-version: '0.02'
+version: '0.03'
 x_contributors:
   - 'masakyst <masakyst.mobile@gmail.com>'
